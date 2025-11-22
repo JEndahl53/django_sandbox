@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'django_browser_reload',
     'tailwind',
     'theme',
+    'my_commands',  # For FactoryBoy support
 ]
 
 MIDDLEWARE = [
