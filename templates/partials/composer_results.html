@@ -1,0 +1,13 @@
+<!-- templates/partials/composer_results.html -->
+
+{% if composers %}
+  <ul class="menu bg-base-200 rounded-box p-4">
+    {% for composer in composers %}
+      <li>
+        <span>{{ composer.first_name }} {{ composer.last_name }}</span>
+      </li>
+    {% endfor %}
+  </ul>
+{% else %}
+  <p class="text-gray-500 p-2">No composers found</p>
+{% endif %}
